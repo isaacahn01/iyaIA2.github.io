@@ -1,0 +1,114 @@
+/* Elements */
+body {
+    background-color: lightblue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+
+nav {
+    text-align: center;
+    font-family:  Brush Script MT, Brush Script Std, cursive;
+    font-size: 2em;
+    border-top: 15px solid salmon;
+    border-bottom: 15px solid salmon;
+    background-color: salmon;
+    padding: auto;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+/* Classes */
+.article-header1{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.article-header1-right{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.article-header2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description-right {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-img {
+    width: 25px;
+    height: 25px;
+}
+
+.header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img-cell {
+    width: 10px;
+}
+
+.left-img1 {
+    height: 250px;
+    width: 250px;
+}
+
+.left-img2 {
+    height: 125px;
+    width: 125px;
+}
+
+.menu-head {
+    text-align: center;
+    font-family:  Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+}
+
+.right-img1 {
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
+.img {
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 640px) {
+    .section-header {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .left-img1 {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .left-img2 {
+        height: 200px;
+        width: 200px;
+    }
+    .right-img1 {
+        height: 200px;
+        width: 200px;
+    }
+}
